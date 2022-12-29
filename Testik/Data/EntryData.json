@@ -1,0 +1,26 @@
+﻿[
+  {
+    "caption": "",
+    "imageURL":  "",
+    "id": 0,
+    "answers": [
+      {
+       
+        "caption": "",
+        "istrue": true
+      },
+      {
+       
+        "caption": "",
+        "istrue": false
+      },
+      {
+        
+        "caption": "",
+        "istrue": false
+      }
+
+    ]
+
+  }
+]

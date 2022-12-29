@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Testik.MainPage"
+             xmlns:viewmodels="clr-namespace:Testik.ViewModels"
+             xmlns:models="clr-namespace:Testik.Models"
+             x:DataType="viewmodels:MainPageViewModel"
+             >
+    
+    <ContentPage.Resources>
+
+        <DataTemplate x:DataType="models:StdQuestion" x:Key="TabTemplate">
+            <StackLayout Orientation="Vertical" Margin="20,0,0,0"
+                         HeightRequest="520"
+                         Spacing="5"
+                         
+                         
+                         VerticalOptions="Center">
+                <Label Text="{Binding IdLabel}"
+                       Margin="5"
+                       TextColor="{StaticResource Gray200}"
+                       FontSize="12"/>
+                <Label Text="{Binding Description}"
+                       Margin="5"
+                       TextColor="{StaticResource Primary}"
+                       FontSize="18"/>
+                <Image Source="{Binding ImagePath}"
+                           HeightRequest="180"
+                           WidthRequest="180" Aspect="AspectFill" />
+                <Frame Padding="0" IsClippedToBounds="True"
+                       BorderColor="Transparent">
+                    
+                </Frame>
+               
+                <CollectionView ItemsSource="{Binding Answers}"
+                               
+                                ItemTemplate="{StaticResource AnswersTemplate}"/>
+            </StackLayout>
+        </DataTemplate>
+        <DataTemplate x:Key="AnswersTemplate" x:DataType="models:StdAnswer">
+            <StackLayout Orientation="Vertical" Margin="10"
+                         VerticalOptions="Center"
+                         >
+                <RadioButton Content="{Binding Caption}"
+                             GroupName="{Binding Id}"
+                             IsChecked="{Binding IsChecked}"
+                             TextColor="{StaticResource Primary}"
+                             Margin="3"
+                             Background="{StaticResource Gray500}"
+                             CornerRadius="4"
+                             />
+
+            </StackLayout>
+        </DataTemplate>
+        <Style TargetType="RadioButton">
+            <Setter Property="VisualStateManager.VisualStateGroups">
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CheckedStates">
+                        <VisualState x:Name="Checked">
+                            <VisualState.Setters>
+                                <Setter Property="TextColor"
+                                        Value="Green" />
+                                <Setter Property="Opacity"
+                                        Value="1" />
+                            </VisualState.Setters>
+                        </VisualState>
+                        <VisualState x:Name="Unchecked">
+                            <VisualState.Setters>
+                                <Setter Property="TextColor"
+                                        Value="Red" />
+                                <Setter Property="Opacity"
+                                        Value="0.6" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+    <ScrollView Orientation="Vertical">
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <Label
+                Text="Testik ;)"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Image
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+            
+            <ScrollView Orientation="Vertical"
+                        
+                        HorizontalScrollBarVisibility="Never">
+                <StackLayout Orientation="Vertical" Spacing="10" 
+                             BindableLayout.ItemsSource="{Binding Questions}" 
+                             BindableLayout.ItemTemplate="{StaticResource TabTemplate}"/>
+            
+            </ScrollView>
+            <Button Text="Send" Command="{Binding SendAnswersCommand}"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

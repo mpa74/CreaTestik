@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{14FF5956-B3F2-4A3C-9C08-921710E4FEB4}|Default">
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Testik PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Testik/Testik.csproj">
+    <Files>
+      <File FileName="Testik/MainPage.xaml" Line="8" Column="14" />
+      <File FileName="Testik/MainPage.xaml.cs" />
+      <File FileName="Testik/Data/EntryData.json" />
+      <File FileName="Testik/AppShell.xaml" />
+      <File FileName="Testik/ViewModels/MainPageViewModel.cs" />
+      <File FileName="Testik/Views/StartPage.xaml" />
+      <File FileName="Testik/Models/StdQuestion.cs" />
+      <File FileName="Testik/Models/StdAnswer.cs" />
+      <File FileName="Testik/Models/IQuestion.cs" />
+      <File FileName="Testik/Views/StartPage.xaml.cs" />
+      <File FileName="Testik/Views/HomePage.xaml" Line="210" Column="37" />
+      <File FileName="Testik/Views/HomePage.xaml.cs" />
+      <File FileName="Testik/Services/PlanetsService.cs" />
+      <File FileName="Testik/Testik.csproj" Line="4" Column="71" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Testik" expanded="True">
+            <Node name="Testik" expanded="True" selected="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="StartPage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
