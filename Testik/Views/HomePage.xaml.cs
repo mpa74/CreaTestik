@@ -22,7 +22,7 @@ public partial class HomePage : ContentPage
 
     async void Planets_SelectionChanged(System.Object sender, Microsoft.Maui.Controls.SelectionChangedEventArgs e)
     {
-        await Navigation.PushAsync(new MainPage());
+        await Navigation.PushAsync(new DrawPage());
     }
 
     async void ProfilePic_Clicked(System.Object sender, System.EventArgs e)

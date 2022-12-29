@@ -35,7 +35,7 @@ public partial class MainPage : ContentPage
                     new StdAnswer("4", 1, false, false),
                     new StdAnswer("12", 1, false, false)
                 },
-                @"http://91.210.169.67//B2.png"),
+                @"http://91.210.169.67/B2.png"),
             new StdQuestion(2, description:quests[2], 
                 new ObservableCollection<StdAnswer>()
                 {

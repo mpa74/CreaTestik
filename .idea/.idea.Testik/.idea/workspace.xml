@@ -7,15 +7,27 @@
   <component name="ChangeListManager">
     <list default="true" id="15cc1e20-7e2f-4d93-b483-da1c9975d9dd" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Testik/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Testik/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Testik/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Testik/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Testik/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/Testik/xs/UserPrefs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/Testik/xs/project-cache/Testik-Debug-net7.0-android.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/Testik/xs/project-cache/Testik-Debug-net7.0-ios.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/Testik/xs/project-cache/Testik-Debug-net7.0-maccatalyst.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Testik.sln" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Testik/App.xaml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Testik/App.xaml.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Testik/AppShell.xaml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Testik/AppShell.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testik/Data/EntryData.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Testik/MainPage.xaml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Testik/MainPage.xaml.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Testik/MauiProgram.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Testik/Models/IQuestion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testik/Models/Planet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testik/Models/StdAnswer.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Testik/Models/StdQuestion.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Testik/Platforms/Android/AndroidManifest.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Testik/Platforms/Android/MainActivity.cs" afterDir="false" />
@@ -43,9 +55,14 @@
       <change afterPath="$PROJECT_DIR$/Testik/Resources/Splash/splash.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Testik/Resources/Styles/Colors.xaml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Testik/Resources/Styles/Styles.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testik/Services/Constants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testik/Services/PlanetsService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testik/Services/RestService.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Testik/Testik.App.sln" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Testik/Testik.csproj" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Testik/ViewModels/MainPageViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testik/Views/HomePage.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Testik/Views/HomePage.xaml.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Testik/Views/StartPage.xaml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Testik/Views/StartPage.xaml.cs" afterDir="false" />
     </list>
@@ -111,6 +128,7 @@
       <workItem from="1670178790086" duration="2220000" />
       <workItem from="1670181025086" duration="1258000" />
       <workItem from="1670692696246" duration="639000" />
+      <workItem from="1671698457340" duration="6000" />
     </task>
     <servers />
   </component>
