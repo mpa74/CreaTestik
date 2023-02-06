@@ -1,14 +1,14 @@
-﻿using Testik.Views;
+﻿using Testik.Services;
 using Testik.Models;
-using Testik.Services;
 
 namespace Testik.Views;
 
-public partial class HomePage : ContentPage
+
+public partial class PlanetsPage : ContentPage
 {
     private const uint AnimationDuration = 800u;
 
-    public HomePage()
+    public PlanetsPage()
 	{
 		InitializeComponent();
 	}
@@ -23,7 +23,7 @@ public partial class HomePage : ContentPage
 
     async void Planets_SelectionChanged(System.Object sender, Microsoft.Maui.Controls.SelectionChangedEventArgs e)
     {
-        await Navigation.PushAsync(new PlanetsPage());
+        await Navigation.PushAsync(new PlanetDetailsPage(e.CurrentSelection.First() as Planet));
     }
 
     async void ProfilePic_Clicked(System.Object sender, System.EventArgs e)

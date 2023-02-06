@@ -1,20 +1,25 @@
 ﻿<Properties StartupConfiguration="{14FF5956-B3F2-4A3C-9C08-921710E4FEB4}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CE41064A-C4EA-4060-92FD-DE0C3A56649B" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Testik/Views/DrawPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Testik/Views/HomePage.xaml">
     <Files>
-      <File FileName="Testik/MainPage.xaml" Line="8" Column="14" />
+      <File FileName="Testik/MainPage.xaml" />
       <File FileName="Testik/MainPage.xaml.cs" />
       <File FileName="Testik/Data/EntryData.json" />
       <File FileName="Testik/AppShell.xaml" />
       <File FileName="Testik/ViewModels/MainPageViewModel.cs" />
       <File FileName="Testik/Services/Constants.cs" />
       <File FileName="Testik/Platforms/MacCatalyst/Program.cs" />
-      <File FileName="Testik/Views/DrawPage.xaml" Line="20" Column="9" />
+      <File FileName="Testik/Views/DrawPage.xaml" />
       <File FileName="Testik/ViewModels/DrawPageViewModel.cs" />
-      <File FileName="Testik/Views/HomePage.xaml" />
-      <File FileName="Testik/Views/HomePage.xaml.cs" />
+      <File FileName="Testik/Views/HomePage.xaml" Line="204" Column="46" />
+      <File FileName="Testik/Views/HomePage.xaml.cs" Line="25" Column="48" />
       <File FileName="Testik/Views/DrawPage.xaml.cs" />
+      <File FileName="Testik/Services/PlanetsService.cs" />
+      <File FileName="Testik/Services/RestService.cs" />
+      <File FileName="Testik/Views/StartPage.xaml" Line="136" Column="44" />
+      <File FileName="Testik/Views/StartPage.xaml.cs" Line="42" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,22 +28,22 @@
             <Node name="Testik" expanded="True">
               <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Platforms" expanded="True">
-                <Node name="MacCatalyst" expanded="True" />
-              </Node>
               <Node name="Services" expanded="True" />
               <Node name="ViewModels" expanded="True" />
-              <Node name="Views" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="DrawPage.xaml" expanded="True" />
+                <Node name="HomePage.xaml" expanded="True" selected="True" />
+                <Node name="StartPage.xaml" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Testik PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CE41064A-C4EA-4060-92FD-DE0C3A56649B" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Testik PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BAC11871-8FAD-4028-AEF1-D334C4172110" />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BAC11871-8FAD-4028-AEF1-D334C4172110" />
+  <MultiItemStartupConfigurations />
 </Properties>
